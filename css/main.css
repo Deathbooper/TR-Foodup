@@ -49,3 +49,14 @@ input[type=text]{
   width:400px;
   padding:12px;
 }
+.SignupSection{
+  margin:auto;
+  margin-top:5%;
+  padding:2%;
+  width: 35em;
+  height:30em;
+  background-color: white;
+  margin-bottom: 25px; 
+  border-radius: 10px;
+  font-weight:bold;
+}
