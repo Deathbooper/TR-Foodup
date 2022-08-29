@@ -1,8 +1,33 @@
 body {
     display:contents;
   }
-header{
-    padding: 60px;
-    text-align:left;
+html{
+  background-color: #E1E1E1;
+}
+  header {
+    height:5em;
+    font-family:'Rhodium Libre';
+    vertical-align:center;
+    padding-left:0.5%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
     background:#32A74C;
+    color:white;
+    font-size: large;
+}
+.HeaderImage {
+  height: 5em;
+  float:left;
+  vertical-align: middle;
+  float:left;
+}
+.LogInSection{
+  margin:auto;
+  margin-top:5%;
+  padding: 5%;
+  width:60em;
+  height:30em;
+  background-color: white;
+  margin-bottom: 25px; 
+  border-radius: 10px;
 }
