@@ -32,3 +32,12 @@ html{
   border-radius: 10px;
   font-weight:bold;
 }
+input[type=submit]{
+  background-color:#32A74C;
+  border:none;
+  border-radius:10px;
+  color:white;
+  padding:8px;
+  width:200px;
+  cursor:pointer;
+}
