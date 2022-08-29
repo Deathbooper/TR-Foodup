@@ -15,11 +15,40 @@ html{
     color:white;
     font-size: large;
 }
+nav{
+  position:sticky;
+  top:0px;
+  z-index: 10;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+  font-family:Verdana;
+
+}
+nav li {
+  float: left;
+}
+nav  li a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+nav .active,li:hover {
+background-color:#45c461;
+}
 .HeaderImage {
-  height: 5em;
+  height: 90px;
   float:left;
   vertical-align: middle;
   float:left;
+  
 }
 .LogInSection{
   margin:auto;
@@ -59,4 +88,14 @@ input[type=text]{
   margin-bottom: 25px; 
   border-radius: 10px;
   font-weight:bold;
+}
+.homeSection{
+  margin:auto;
+  margin-top:5%;
+  padding:2%;
+  width: 90%;
+  height:50em;
+  background-color: white;
+  margin-bottom: 25px; 
+  border-radius: 10px;
 }
