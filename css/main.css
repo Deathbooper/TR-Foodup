@@ -24,9 +24,9 @@ html{
 .LogInSection{
   margin:auto;
   margin-top:5%;
-  padding: 5%;
-  width:60em;
-  height:30em;
+  padding:2%;
+  width: 35em;
+  height:25em;
   background-color: white;
   margin-bottom: 25px; 
   border-radius: 10px;
@@ -40,4 +40,12 @@ input[type=submit]{
   padding:8px;
   width:200px;
   cursor:pointer;
+}
+input[type=text]{
+  background-color:#F2F2F2;
+  border:none;
+  border-radius:5px;
+  color:#7B7B7B;
+  width:400px;
+  padding:12px;
 }
